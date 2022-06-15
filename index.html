@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTI SUKSES ALUMINIUM | HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="our-product1.html">PRODUCT</a></li>
+                    <li><a href="contant.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Inti Sukses Aluminium</h1>
+        <p>Informasi harga pemasaran dan jual kunsen aluminium, kaca dan besi<br>
+            di jakarta selatan,jakarta barat,jakarta utara,jakarta pusat,jakarta timur,depok,bogor,bekasi, cibubur,serang,tangerang,bsd serpong cipotat,dadap,dan sekitarnya</p>
+    </div>
+
+    </section>
+<!--about-us-->
+    <section class="about-us">
+        <h1>Why Should Us ?</h1>
+
+        <div class="row">
+            <div class="about-us-col">
+                <h3>Peroses Pengerjan Yang Cepat</h3>
+                <p>Waktu pengerjaan yang cepat sehingga lebih efisien, dengan kualitar terbaik.</p>
+            </div>
+            <div class="about-us-col">
+                <h3>Harga Yang terjangkau</h3>
+                <p>Harga yang terjangkau dengan kualitas tarbaik.</p>
+            </div>
+            <div class="about-us-col">
+                <h3>Kepuasan pelanggan prioritas kami</h3>
+                <p>Selalu memcoba membangun & menjaga hubungan merupakan hal terpenting bagi kami.</p>
+            </div>
+        </div>
+    </section>
+
+<!--highlight-->
+
+<section class="highlight">
+    <h1>highlight product</h1>   
+        <dic class="row">
+            <div class="highlight-col">
+                <img src="images/canopy-kaca2.jpg" alt="canopy">
+                <div class="layer">
+                    <h3>canopy kaca</h3>
+                </div>
+            </div>
+            <div class="highlight-col">
+                <img src="images/partisi-kaca2.jpg" alt="newyork">
+                <div class="layer">
+                    <h3>partisi kaca</h3>
+                </div>
+            </div>
+            <div class="highlight-col">
+                <img src="images/pintu-aluminium-swing.jpg" alt="washington">
+                <div class="layer">
+                    <h3>pintu aluminium swing</h3>
+                </div>
+            </div>
+        </dic>
+</section>
+
+<!--call to action-->
+<section class="cta">
+    <h1>Untuk informasi lebih lanjut bisa hubunggi kami.</h1>
+    <a href="contant.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--footer-->
+
+<section class="footer">
+    <h4>HOME</h4>
+    <p>copyright &copy; 2022 Inti Sukses Aluminium</p>
+</section>
+
+
+<!---javascript--->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
